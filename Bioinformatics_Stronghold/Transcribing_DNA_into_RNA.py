@@ -8,6 +8,7 @@ def DNA_into_RNA(DNA_sequence):
     RNA_sequence = DNA_sequence.upper().replace("T", "U")
     return RNA_sequence
 
+
 """
 ------------------------------------------------------------------------------------------------
 The unit test
