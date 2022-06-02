@@ -9,7 +9,6 @@ def count_nucleotides(DNA_sequence):
     return [DNA_sequence.count(n) for n in "ACGT"]
 
 
-
 """
 ------------------------------------------------------------------------------------------------
 The unit test
