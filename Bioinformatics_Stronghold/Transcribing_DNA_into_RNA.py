@@ -1,14 +1,12 @@
 """
 ------------------------------------------------------------------------------------------------
-The function that counts the nucleotides present in the given DNA sequence.
-Output is a list containing the nuber of nucleotides of adenine, cytosine, guanine and thymine.
+The function that transcribed DNA into RNA.
 ------------------------------------------------------------------------------------------------
 """
 
-def count_nucleotides(DNA_sequence):
-    return [DNA_sequence.count(n) for n in "ACGT"]
-
-
+def DNA_into_RNA(DNA_sequence):
+    RNA_sequence = DNA_sequence.upper().replace("T", "U")
+    return RNA_sequence
 
 """
 ------------------------------------------------------------------------------------------------
@@ -19,10 +17,9 @@ The unit test
 import unittest
 class Test(unittest.TestCase):
     def test_DNA_sequence(self):
-        DNA_sequence = "AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC"
-        nucleotides = count_nucleotides(DNA_sequence)
-        self.assertEqual(nucleotides, [20, 12, 17, 21])
+        DNA_sequence = "GATGGAACTTGACTACGTAAATT"
+        RNA_sequence = DNA_into_RNA(DNA_sequence)
+        self.assertEqual(RNA_sequence, "GAUGGAACUUGACUACGUAAAUU")
 
 if __name__ == '__main__':
     unittest.main()
-    
