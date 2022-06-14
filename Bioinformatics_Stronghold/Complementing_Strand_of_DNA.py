@@ -14,7 +14,7 @@ def reverse_complement(DNA_sequence):
 The unit test
 ------------------------------------------------------------------------------------------------
 """
-"""
+
 import unittest
 class Test(unittest.TestCase):
     def test_DNA_sequence(self):
@@ -23,4 +23,4 @@ class Test(unittest.TestCase):
         self.assertEqual(reverse_complement_sequence, "ACCGGGTTTT")
 
 if __name__ == '__main__':
-    unittest.main()"""
+    unittest.main()
