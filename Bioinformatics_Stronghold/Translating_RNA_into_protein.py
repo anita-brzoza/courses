@@ -56,7 +56,9 @@ def RNA_to_protein(RNA_sequence):
 import unittest
 
 class Test(unittest.TestCase):
+    
     def test_RNA_to_protein(self):
+        """Unit test for RNA_to_protein function"""
         protein = RNA_to_protein('AUGGCCAUGGCGCCCAGAACUGAGAUCAAUAGUACCCGUAUUAACGGGUGA')
         self.assertEqual(protein, 'MAMAPRTEINSTRING')
 
