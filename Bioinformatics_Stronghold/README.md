@@ -13,3 +13,4 @@ This folder contains solutions to tasks on the Rosalind platform - Bioinformatic
 * [Computing GC Content](Computing_GC_content.py) - the function that opens .fasta files and then calculates the GC content of each sequence and returns the ID of the sequence with the highest GC content and its value
 * [Translating RNA into Protein](Translating_RNA_into_protein.py) - the function that return the protein string encoded by RNA sequence
 * [Finding a motif in DNA](Finding_motif_in_DNA.py) - the function that return all locations of sequence t as a substring of sequence s
+* [Enumerating Gene Orders](Enumerating_Gene_Orders.py) - the function that return number of possible permutations and possible rearrangements of genes order
