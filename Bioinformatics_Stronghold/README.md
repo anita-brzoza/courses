@@ -14,3 +14,4 @@ This folder contains solutions to tasks on the Rosalind platform - Bioinformatic
 * [Translating RNA into Protein](Translating_RNA_into_protein.py) - the function that return the protein string encoded by RNA sequence
 * [Finding a motif in DNA](Finding_motif_in_DNA.py) - the function that return all locations of sequence t as a substring of sequence s
 * [Enumerating Gene Orders](Enumerating_Gene_Orders.py) - the function that return number of possible permutations and possible rearrangements of genes order
+* [Rabbits and Recurrence Relations](Rabbits_and_Recurrence_Relations.py) - the function that return the total number of rabbits that will be present after n months, if we begin with 1 pair and in each generation, every pair of reproduction-age rabbits produces a litter of k rabbit pairs (instead of only 1 pair)
